@@ -10,7 +10,10 @@
 ## Correr el modelos finales
 ### Descargar datos
 Los datos que usamos son de Kaggle usamos este [dataset](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset).
+### Análisis de datos
 Para correr el análisis se puede usar cualquier programa que corra Jupyter notebook en la parte de arriba se instalan las dependencias de los notebooks.
+### Crear Arquitectura
 1. Crear una carpeta en s3. [Tutorial]()
 2. Crear un cluster EMR. [Tutorial]()
-3. Correr los archivos. [Tutorial]()
+### Entrenar Modelos
+Correr los archivos en cluster EMR. [Tutorial]()

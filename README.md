@@ -5,8 +5,8 @@
 - model_files: Los notebooks con los modelos finales
 - process: Los archivos de datos con el preprocesamiento hecho.
 - processing_files: Los archivos que hicieron el preprocesamiento. (Bastante del preprosesamiento se hacia en los modelos finales)
-- refined: Los datos y modelos que nos quedaron después de hacer el procesamiento
-- testing_files: Unos archivos para asegurar que los resultados fueran correctos.
+- refined: Los datos y modelos que nos quedaron después de hacer el procesamiento. Esto es lo modelos en si como los guarda pyspark. También, tiene los resultados como los vectores tfidf, y las recommendaciones del colaborative filtering.
+- testing_files: Unos archivos para asegurar que los resultados fueran correctos. Revisar que los ids si existieran y buscar las recommendaciones.
 ## Correr Código
 ### Descargar datos
 Los datos que usamos son de Kaggle usamos este [dataset](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset).

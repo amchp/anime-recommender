@@ -7,7 +7,7 @@
 - processing_files: Los archivos que hicieron el preprocesamiento. (Bastante del preprosesamiento se hacia en los modelos finales)
 - refined: Los datos y modelos que nos quedaron después de hacer el procesamiento
 - testing_files: Unos archivos para asegurar que los resultados fueran correctos.
-## Correr el modelos finales
+## Correr Código
 ### Descargar datos
 Los datos que usamos son de Kaggle usamos este [dataset](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset).
 ### Análisis de datos

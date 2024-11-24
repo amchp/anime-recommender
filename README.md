@@ -13,7 +13,7 @@ Los datos que usamos son de Kaggle usamos este [dataset](https://www.kaggle.com/
 ### Análisis de datos
 Para correr el análisis se puede usar cualquier programa que corra Jupyter notebook en la parte de arriba se instalan las dependencias de los notebooks.
 ### Crear Arquitectura
-1. Crear una carpeta en s3. [Tutorial]()
+1. Crear una carpeta en s3. [Tutorial](https://scribehow.com/shared/Create_an_S3_Bucket_and_Upload_Files__IpMbFfdaSzuxviU2n_Ec8Q)
 2. Crear un cluster EMR. [Tutorial]()
 ### Entrenar Modelos
 Correr los archivos en cluster EMR. [Tutorial]()

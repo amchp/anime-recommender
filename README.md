@@ -16,4 +16,4 @@ Para correr el análisis se puede usar cualquier programa que corra Jupyter note
 1. Crear una carpeta en s3. [Tutorial](https://scribehow.com/shared/Create_an_S3_Bucket_and_Upload_Files__IpMbFfdaSzuxviU2n_Ec8Q)
 2. Crear un cluster EMR. [Tutorial](https://scribehow.com/shared/Create_an_Amazon_EMR_Cluster_with_Custom_Security_Rules__23RSSB9SSK65adYhDhfVsg)
 ### Entrenar Modelos
-Correr los archivos en cluster EMR. [Tutorial]()
+Correr los archivos en cluster EMR. [Tutorial](https://scribehow.com/shared/Uploading_and_Running_a_Jupyter_Notebook_on_EMR__zc2LkutZSKWVO7PlnPY4dQ)

@@ -2,10 +2,21 @@
 ## Estructura del proyecto
 - analisis_files: Notebooks de python donde analizamos los datos y vimos con cuales datos estabamos trabajando.
 - data_lab: Los archivos de modelos de prueba
-- model_files: Los notebooks con los modelos finales
-- process: Los archivos de datos con el preprocesamiento hecho.
-- processing_files: Los archivos que hicieron el preprocesamiento. (Bastante del preprosesamiento se hacia en los modelos finales)
+- model_files: Los notebooks con procesamiento y modelos finales
+- sample_files: Los archivos de datos con el preprocesamiento hecho.
+- sample_test: Los archivos que hicieron el preprocesamiento. (Bastante del preprosesamiento se hacia en los modelos finales)
 - refined: Los datos y modelos que nos quedaron después de hacer el procesamiento. Esto es lo modelos en si como los guarda pyspark. También, tiene los resultados como los vectores tfidf, y las recommendaciones del colaborative filtering.
+Ejemplo:
+```python
+from pyspark.ml.recommendation import ALSModel
+
+model = ALSModel.load("refined/anime_recommendations_als_model")
+```
+```python
+from pyspark.ml import PipelineModel
+
+pipeline_model = PipelineModel.load("refined/tfidf_pipeline_model")
+```
 - testing_files: Unos archivos para asegurar que los resultados fueran correctos. Revisar que los ids si existieran y buscar las recommendaciones.
 ## Correr Código
 ### Descargar datos
